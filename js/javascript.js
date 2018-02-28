@@ -42,16 +42,16 @@ function unhider() {
     }, 300);
     setTimeout(function() {
         $('#project-4').addClass('animated fadeOutDown');
-    }, 400);
+    }, 250);
     setTimeout(function() {
         $('#project-3').addClass('animated fadeOutDown');
-    }, 500);
+    }, 350);
     setTimeout(function() {
         $('#project-2').addClass('animated fadeOutDown');
-    }, 600);
+    }, 450);
     setTimeout(function() {
         $('#project-1').addClass('animated fadeOutDown');
-    }, 700);
+    }, 550);
     setTimeout(function() {
         $('#project-1').animateCss('fadeOutDown', function() {        
             $('#project-1').hide();
