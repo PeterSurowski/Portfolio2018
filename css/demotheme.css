@@ -51,6 +51,12 @@ h2#tagline-4 {
   text-align: center;
   margin: .3em 0 .5em;
   color: white;
+  font-family: "Raleway";
+}
+
+.resume-item {
+  text-align: center;
+  margin: 1em 0 1em;
 }
 
 .row {
