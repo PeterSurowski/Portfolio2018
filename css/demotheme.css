@@ -44,7 +44,7 @@ h3 {
 
 h2#tagline-3 {
   text-align: center;
-  margin: .3em 0 .5em;
+  margin: 0 0 .5em;
 }
 
 h2#tagline-4 {
@@ -139,6 +139,17 @@ div.parallaxImg-page {
   width: 100%;
   height: 18em;
   background-color: yellow;
+}
+
+.fa-times-rectangle:before, .fa-window-close:before {
+  font-size: 30px;
+  color: white;
+}
+
+#project-copy {
+  color: white;
+  padding-top: 1.5em;
+  font-family: "Raleway";
 }
 
 .peter-portrait {

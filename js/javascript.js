@@ -104,23 +104,23 @@ function rehider() {
 // These add project-specific content to #project-description:
 function contentAdderOne() {
     $('#project-image').empty();
-    $('#project-image').append('<img src="./img/assassins/300x300.png" />');
+    $('#project-image').append('<a href="https://crimewatcher.herokuapp.com/" target="_blank"><img src="./img/projects/crimewatcher520x500.jpg"/></a>');
     $('#project-copy').empty();
-    $('#project-copy').append('<h3>Crime Watcher</h3><p>This is a lorem ipsum blah blah blah whatever.</p>');
+    $('#project-copy').append("<h3>Crime Watcher</h3><p><strong>Technologies used:</strong> HTML | CSS | jQuery | Node.JS | React.JS | MongoDB | API | Bootstrap</p><p><strong>Description:</strong> This app is geared for crime reporters. It allows them to search for crimes committed in specific time frames and automatically presents the data in readable story form. Peter and three other developers created it as part of UCI's Web Development certificate program.</p><h4><a href='https://crimewatcher.herokuapp.com/' target='_blank'>TRY IT OUT!</a></h4> ");
 }
 
 function contentAdderTwo() {
     $('#project-image').empty();
-    $('#project-image').append('<img src="../img/assassins/300x300.png" />');
+    $('#project-image').append("<a href='https://petersurowski.github.io/RPG/' target='_blank'><img src='./img/projects/cornered520x500.jpg'/></a>");
     $('#project-copy').empty();
-    $('#project-copy').append('<h3>Cornered!</h3><p>This is a lorem ipsum blah blah blah whatever.</p>');
+    $('#project-copy').append("<h3>Cornered!</h3><p><strong>Technologies used:</strong> HTML | CSS | plain vanilla JavaScript</p><p><strong>Description:</strong> Cornered! is a simple dice-throwing game where you try to defeat three zombies by rolling high enough numbers to take away their hit points before they depleat yours. It uses only HTML, CSS and plain JavaScript (though Peter also created <a href='https://petersurowski.github.io/RPG-jQuery/' target='_blank'>a version that uses jQuery</a>.)</p><h4><a href='https://petersurowski.github.io/RPG/' target='_blank'>TRY IT OUT!</a></h4> ");
 }
 
 function contentAdderThree() {
     $('#project-image').empty();
-    $('#project-image').append('<img src="../img/assassins/300x300.png" />');
+    $('#project-image').append("<a href='https://petersurowski.github.io/TriviaGame/' target='_blank'><img src='./img/projects/holygrail520x500.jpg'/></a>");
     $('#project-copy').empty();
-    $('#project-copy').append('<h3>Bridge of Death</h3><p>This is a lorem ipsum blah blah blah whatever.</p>');
+    $('#project-copy').append("<h3>The Bridge of Death</h3><p><strong>Technologies used:</strong> HTML | CSS | jQuery</p><p><strong>Description:</strong> There should have been a Monty Python's Quest for the Holy Grail-themed video game on Nintendo, but there wasn't. So Peter created one! It recreates one of the most famous scenes of the movie in glorious 8-bit fashion.</p><h4><a href='https://petersurowski.github.io/TriviaGame/' target='_blank'>TRY IT OUT!</a></h4> ");
 }
 
 function contentAdderFour() {
