@@ -112,15 +112,15 @@ div.parallaxImg-page {
 }
 
 #project-4 {
-  background-image: url("../img/assassins/projects/punchcard.png");
+  background-image: url("../img/projects/TimeCard300x300.jpg");
   width: 100%;
   height: 18em;
 }
 
 #project-5 {
+  background-image: url("../img/projects/capoeira300x300.jpg");
   width: 100%;
   height: 18em;
-  background-color: orange;
 }
 
 #project-6 {

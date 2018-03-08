@@ -125,16 +125,16 @@ function contentAdderThree() {
 
 function contentAdderFour() {
     $('#project-image').empty();
-    $('#project-image').append('<img src="../img/assassins/300x300.png" />');
+    $('#project-image').append("<a href='https://petersurowski.github.io/timesheet/' target='_blank'><img src='./img/projects/TimeCard520x500.jpg' /></a>");
     $('#project-copy').empty();
-    $('#project-copy').append('<h3>Time Sheet</h3><p>This is a lorem ipsum blah blah blah whatever.</p>');
+    $('#project-copy').append("<h3>Time Sheet</h3><p><strong>Technologies used:</strong> HTML | CSS | Bootstrap | jQuery | Firebase</p><p><strong>Description:</strong> We all gotta punch the clock in one way or another. May as well do it in style! Peter created this basic Bootstrapped time sheet app while toying with Google's new Firebase database service. It's pre-populated with some dummy data, but feel free to add to it!<p><h4><a href='https://petersurowski.github.io/timesheet/' target='_blank'>TRY IT OUT!</a></h4> ");
 }
 
 function contentAdderFive() {
     $('#project-image').empty();
-    $('#project-image').append('<img src="../img/assassins/300x300.png" />');
+    $('#project-image').append("<a href='http://http://www.capoeirariverside.com/' target='_blank'><img src='./img/projects/capoeira520x500.jpg' /></a>");
     $('#project-copy').empty();
-    $('#project-copy').append('<h3>Cornered!</h3><p>This is a lorem ipsum blah blah blah whatever.</p>');
+    $('#project-copy').append("<h3>Capoeira Riverside</h3><p><strong>Technologies used:</strong> HTML | CSS | Bootstrap | PHP | MySQL | WordPress</p><p><strong>Description:</strong> Peter created this website for a client who runs a martial arts school. He needed something that presented the business' basic information while stirring excitement in the visitor. He also needed a CMS that the client would be able to use after the development phase was done. WordPress was an effective solution. The theme is a customized child of OneTone.<p><h4><a href='https://petersurowski.github.io/timesheet/' target='_blank'>TRY IT OUT!</a></h4> ");
 }
 
 function contentAdderSix() {
