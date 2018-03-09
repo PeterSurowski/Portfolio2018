@@ -134,14 +134,14 @@ function contentAdderFive() {
     $('#project-image').empty();
     $('#project-image').append("<a href='http://http://www.capoeirariverside.com/' target='_blank'><img src='./img/projects/capoeira520x500.jpg' /></a>");
     $('#project-copy').empty();
-    $('#project-copy').append("<h3>Capoeira Riverside</h3><p><strong>Technologies used:</strong> HTML | CSS | Bootstrap | PHP | MySQL | WordPress</p><p><strong>Description:</strong> Peter created this website for a client who runs a martial arts school. He needed something that presented the business' basic information while stirring excitement in the visitor. He also needed a CMS that the client would be able to use after the development phase was done. WordPress was an effective solution. The theme is a customized child of OneTone.<p><h4><a href='https://petersurowski.github.io/timesheet/' target='_blank'>TRY IT OUT!</a></h4> ");
+    $('#project-copy').append("<h3>Capoeira Riverside</h3><p><strong>Technologies used:</strong> HTML | CSS | Bootstrap | PHP | MySQL | WordPress</p><p><strong>Description:</strong> Peter created this website for a client who runs a martial arts school. He needed something that presented the business' basic information while stirring excitement in the visitor. He also needed a CMS that the client would be able to use after the development phase was done. WordPress was an effective solution. The theme is a customized child of OneTone.<p><h4><a href='http://capoeirariverside.com/' target='_blank'>VISIT THE SITE!</a></h4> ");
 }
 
 function contentAdderSix() {
     $('#project-image').empty();
-    $('#project-image').append('<img src="../img/assassins/300x300.png" />');
+    $('#project-image').append("<a href='http://http://www.creativekidsclub.org/' target='_blank'><img src='./img/projects/CKC520x500.jpg' /></a>");
     $('#project-copy').empty();
-    $('#project-copy').append('<h3>Cornered!</h3><p>This is a lorem ipsum blah blah blah whatever.</p>');
+    $('#project-copy').append("<h3>Creative Kids Club</h3><p><strong>Technologies used:</strong> WordPress (front end only)</p><p><strong>Description:</strong> Peter created this website for a nonprofit client who wanted a fast, inexpensive website. WordPress hosted solutions were effective for this. Peter wrote the copy, managed the photography and set up the organizations other online campaign components, such as the GoFundMe page and social media accounts.<p><h4><a href='http://creativekidsclub.org' target='_blank'>VISIT THE SITE!</a></h4> ");
 }
 
 function contentAdderSeven() {
