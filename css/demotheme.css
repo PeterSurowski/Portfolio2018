@@ -131,6 +131,7 @@ div.parallaxImg-page {
 }
 
 #project-7 {
+  background-image: url("../img/projects/UCR300x300.jpg");
   width: 100%;
   height: 18em;
   background-color: blue;

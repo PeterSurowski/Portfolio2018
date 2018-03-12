@@ -146,14 +146,14 @@ function contentAdderSix() {
 
 function contentAdderSeven() {
     $('#project-image').empty();
-    $('#project-image').append('<img src="../img/assassins/300x300.png" />');
+    $('#project-image').append("<img src='./img/projects/UCR520x500.jpg' />");
     $('#project-copy').empty();
-    $('#project-copy').append('<h3>Cornered!</h3><p>This is a lorem ipsum blah blah blah whatever.</p>');
+    $('#project-copy').append('<h3>UC Riverside: Copywriting projects</h3><p>During his time as a copywriter at UCR, Peter crafted messaging for numerous projects.<ul><li><b>Get the Facts on Marijuana:</b> Peter designed a campaign to educate students on the university policy on marijuana. It included posters, cards, LCD screens around campus, copy to be included in a weekly email and <a href="http://well.ucr.edu/programs/marijuana-education-awareness.html" target="_blank">a web page.</a></li><li><b>Be Sexcellent:</b> This campaign, launched during Sex Week, educated students on the safer sex resources on campus. The campaign included a flier, posters, email content, LCD screen messaging and <a href="http://well.ucr.edu/programs/be-sexcellent.html" target="_blank">a web page</a>. Peter crafted the content, in collaboration with the client and several student workers, researched the resources and brainstormed the visual themes with the designer.</li><li><b>BlaqOUT:</b> UCR hosts an annual festival for black people who are LGBT, and Peter crafted messaging for the promotional materials. These includes posters, cards, email content, LCD screen messaging and social media content.</li><li><b>Veterans Resource Center:</b> Peter and his team designed the promotional materials for the grand opening of the Veterans Resource Center at UCR. These include posters, fliers, cards, LCD screen messaging, social media and email content.</li></ul></p>');
 }
 
 function contentAdderEight() {
     $('#project-image').empty();
-    $('#project-image').append('<img src="../img/assassins/300x300.png" />');
+    $('#project-image').append('<img src="" />');
     $('#project-copy').empty();
-    $('#project-copy').append('<h3>Cornered!</h3><p>This is a lorem ipsum blah blah blah whatever.</p>');
+    $('#project-copy').append('<h3>Coming soon!</h3><p>Check back soon for more projects.</p>');
 };
