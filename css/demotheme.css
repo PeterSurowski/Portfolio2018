@@ -1,6 +1,6 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css;)
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css;");
 /* you dont need this CSS in your project */
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,700);
+@import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,400");
 
 body {
   margin: 0;
