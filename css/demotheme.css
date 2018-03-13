@@ -1,14 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css;");
-/* you dont need this CSS in your project */
-@import url("http://fonts.googleapis.com/css?family=Raleway");
-
-@font-face {
-  font-family: 'Raleway-Thin';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Raleway Thin'), local('Raleway-Thin'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptsg8zYS_SKggPNwE44Q4FqPfE.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
+@import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,400");
 
 body {
   margin: 0;
@@ -23,8 +14,8 @@ h1, h2, h3, h4, h5, h6, nav a  {
 }
 
 #peter {
-  font-family: 'Raleway-Thin', sans-serif;
-  /* font-weight: light; */
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
   font-size: 4.5em;
   color: white;
 }
