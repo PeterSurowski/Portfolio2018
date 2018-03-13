@@ -1,6 +1,13 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css;");
 /* you dont need this CSS in your project */
-@import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,400");
+@import url("http://fonts.googleapis.com/css?family=Raleway");
+
+@font-face {
+  font-family: 'Raleway-Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://fonts.googleapis.com/css?family=Raleway:100") format('truetype');
+}
 
 body {
   margin: 0;
@@ -15,8 +22,8 @@ h1, h2, h3, h4, h5, h6, nav a  {
 }
 
 #peter {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 100;
+  font-family: 'Raleway-Thin', sans-serif;
+  font-weight: light;
   font-size: 4.5em;
   color: white;
 }
