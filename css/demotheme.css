@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6, nav a  {
 
 #peter {
   font-family: 'Raleway-Thin', sans-serif;
-  font-weight: light;
+  /* font-weight: light; */
   font-size: 4.5em;
   color: white;
 }
