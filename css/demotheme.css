@@ -66,19 +66,6 @@ h1, h2, h3, h4, h5, h6, nav a  {
   margin: -1em 0 0 0;
 }
 
-/* This is to add the labels to each project box:
-
-#project-1 p, #project-2 p, #project-3 p, #project-4 p {
-	font-size: 16px;
-	color: white;
-	text-align: center;
-  background: gray;
-  opacity: .7;
-  position: relative;
-  padding: 3%;
-  bottom: -85%;	
-} */
-
 div.parallaxImg-page {
   background-color: black;
 }
@@ -131,6 +118,53 @@ div.parallaxImg-page {
   background-color: yellow;
 }
 
+#gallery-div {
+  width: 110%;
+  margin-left: -5%;
+}
+
+.gallery {
+  height: 20em;
+  transform:skew(-10deg,0deg);
+  -ms-transform:skew(-10deg,0deg); /* IE 9 */
+  -webkit-transform:skew(-10deg,0deg); /* Safari and Chrome */
+}
+
+#gallery-1 {
+  background-size: 100%;  
+  background-image: url("../img/gallery/profile-shades.jpg");
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;  
+}
+
+#gallery-2 {
+  background-image: url("../img/gallery/codeandcoffee.jpg");
+  background-size: 100%;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+
+#gallery-3 {
+  background-image: url("../img/gallery/profile-starwars.jpg");
+  background-size: 100%;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+}
+
+#gallery-1:hover, #gallery-2:hover, #gallery-3:hover {
+  background-size: 110%;
+  
+}
+
 .fa-times-rectangle:before, .fa-window-close:before {
   font-size: 30px;
   color: white;
@@ -140,16 +174,6 @@ div.parallaxImg-page {
   color: white;
   padding-top: 1.5em;
   font-family: 'Raleway', sans-serif;
-}
-
-.peter-portrait {
-  background-image: url("../img/placeholders/600x400.png");
-  width: 100%;
-  height: 25em;
-}
-
-.resume-item:hover {
-  background: #171718;
 }
 
 .resume {
@@ -229,7 +253,8 @@ section:nth-of-type(2) article:nth-of-type(1) {
   overflow: hidden;
   position: relative;
 }
-.video-container{
+
+.video-container {
   position: absolute;
   z-index: 0;
   min-width: 100%;
@@ -239,6 +264,7 @@ section:nth-of-type(2) article:nth-of-type(1) {
   overflow: hidden;
   opacity: 1;
 }
+
 .video-bg-overlay {
   position: absolute;
   left: 0;
@@ -250,6 +276,7 @@ section:nth-of-type(2) article:nth-of-type(1) {
   background-color: rgba(44,62,80,0.6);
   z-index: 2;
 }
+
 .video-container iframe {
   position: absolute;
   z-index: 0;
@@ -262,6 +289,7 @@ section:nth-of-type(2) article:nth-of-type(1) {
   margin-top: -87px;
   max-width: 4000px !important;
 }
+
 .video-bg {
   width: 100%;
   height: auto;
