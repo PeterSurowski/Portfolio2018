@@ -21,6 +21,12 @@ h1, h2, h3, h4, h5, h6, nav a  {
   color: white;
 }
 
+#down-arrow {
+  color: rgba(255, 255, 255, 1);
+  font-size: 6em;
+  margin: 6% 0 0 0;
+}
+
 #tagline {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
@@ -80,7 +86,7 @@ div.parallaxImg-page {
   text-align: center;
   color: white;
   padding: 2% 0 4%;
-  margin: 80% 0;
+  margin: 60% 0;
 }
 
 #project-1 {
@@ -135,6 +141,7 @@ div.parallaxImg-page {
 }
 
 #project-8 {
+  background-image: url("../img/projects/lissahjohnson300x300.jpg");
   width: 100%;
   height: 18em;
   background-color: yellow;
@@ -197,6 +204,7 @@ div.parallaxImg-page {
 }
 
 .resume-copy {
+  margin: 5em;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -224,10 +232,13 @@ div.parallaxImg-page {
 }
 
 nav {
-  background: rgba(0,0,0,1);
+  background: rgba(0,0,0,0.4);
   text-align: center;
   padding: 1em 0;
-  color: #fff
+  color: #fff;
+  font-size: 1.3em;
+  margin: 0;
+  padding: 0.5em 0;
 }
 nav a {
   color: #fff;

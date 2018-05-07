@@ -153,7 +153,7 @@ function contentAdderSeven() {
 
 function contentAdderEight() {
     $('#project-image').empty();
-    $('#project-image').append('<img src="" />');
+    $('#project-image').append('<a href="http://www.redlands.edu/meet-redlands/student-faculty-and-alumni-stories/alumni-stories/"><img src="./img/projects/lissahjohnson520x500.jpg" /></a>');
     $('#project-copy').empty();
-    $('#project-copy').append('<h3>Coming soon!</h3><p>Check back soon for more projects.</p>');
-};
+    $('#project-copy').append("<h3>University of Redlands: Testimonials page</h3><p>During his time as a web designer and digital content editor at University of Redlands, Peter contributed to the creation of much of the college's website, <a href='http://www.redlands.edu' target='_blank'>www.redlands.edu.</a> Though his page and UX design, along with his written content and original photography, are found throughout the site, many of the elements he designed have changed since he was there. The student stories page stands as an exception: The design is unchanged as of this writing.</p><p>I designed this page to encourage visitors to keep clicking the stories, so we could deliver as much messaging as possible. I did this by using many large, compelling photos and including the alumni's names, job titles and employers.</p><h4><a href='http://www.redlands.edu/meet-redlands/student-faculty-and-alumni-stories/alumni-stories/' target='_blank'>VISIT THE SITE!</a></h4>");
+}
