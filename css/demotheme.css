@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6, nav a  {
 }
 
 #down-arrow {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.4);
   font-size: 6em;
   margin: 6% 0 0 0;
 }
@@ -86,7 +86,7 @@ div.parallaxImg-page {
   text-align: center;
   color: white;
   padding: 2% 0 4%;
-  margin: 60% 0;
+  margin: 5% 0;
 }
 
 #project-1 {
@@ -165,7 +165,7 @@ div.parallaxImg-page {
   text-align: center;
   color: white;
   padding: 2% 0 4%;
-  margin: 50% -3.5% 0;
+  margin: 5% -3.5% 0;
 }
 
 #gallery-1 {
@@ -247,6 +247,10 @@ nav a {
 }
 nav a:hover {
   color: #1FE0D4
+}
+.gallery a:hover {
+  text-decoration: none;
+  color: gray;
 }
 section:nth-of-type(1) {
   background: url("../img/assassins/bg.jpg");
