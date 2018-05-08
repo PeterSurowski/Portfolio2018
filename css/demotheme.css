@@ -200,9 +200,18 @@ div.parallaxImg-page {
 
 #gallery-1:hover, #gallery-2:hover, #gallery-3:hover {
   background-size: 110%;
-  
 }
-
+@media only screen and (max-width: 768px) {
+  .gallery {
+    transform:skew(0deg,0deg);
+    -ms-transform:skew(0deg,0deg); /* IE 9 */
+    -webkit-transform:skew(0deg,0deg); /* Safari and Chrome */
+  }
+  .resume {
+    padding: 0;
+    margin: 0;
+  }
+}
 .resume-copy {
   margin: 5em;
   font-family: 'Raleway', sans-serif;
@@ -251,6 +260,17 @@ nav a:hover {
 .gallery a:hover {
   text-decoration: none;
   color: gray;
+}
+#nav-breaker {
+  display: none;
+}
+@media only screen and (max-width: 352px) {
+  #nav-breaker {
+      display: block;
+  }
+  #peter {
+    padding-top: 0px;
+  }
 }
 section:nth-of-type(1) {
   background: url("../img/assassins/bg.jpg");
