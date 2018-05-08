@@ -28,6 +28,14 @@ $.fn.extend({
     },
   });
 
+// Makes achor tags scroll smoothly:
+$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+});
+
 //Unhides #project-description:
 function unhider() {
     $('#project-8').addClass('animated fadeOutDown');
