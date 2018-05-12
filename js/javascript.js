@@ -28,7 +28,7 @@ $.fn.extend({
     },
   });
 
-// Makes achor tags scroll smoothly:
+// Makes anchor tags scroll smoothly:
 $('a').click(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top
