@@ -44,7 +44,7 @@
       <img src="img/assassins/mist-1.png" class="parallax-move" data-ps-z-index="1" data-ps-speed=".6" data-ps-vertical-position="300" data-ps-horizontal-position="0%" />
       <img src="img/assassins/mist-1.png" class="parallax-move" data-ps-z-index="1" data-ps-speed=".3" data-ps-vertical-position="180" data-ps-horizontal-position="20%" />
       <img src="img/assassins/mist-1.png" class="parallax-move" data-ps-z-index="1" data-ps-speed=".5" data-ps-vertical-position="240" data-ps-horizontal-position="40%" />
-      <img src="img/assassins/lamps/streetlampblurred2.png" id="lamp" class="parallax-move" data-ps-z-index="3" data-ps-speed="1.5" data-ps-vertical-position="300" data-ps-horizontal-position="50%" />
+      <img src="img/assassins/lamps/streetlampblurred2.png" id="lamp" class="parallax-move" data-ps-z-index="3" data-ps-speed="1.5" data-ps-vertical-position="300" data-ps-horizontal-position="55%" />
       <img src="img/assassins/black-cloud.png" class="parallax-move" data-ps-z-index="5" data-ps-speed="0.35" data-ps-vertical-position="-400" data-ps-horizontal-position="-0">
       
     </article>
@@ -106,20 +106,19 @@
     <!--</article>-->
     
   </section>
-  <section>
+  <section id="accordion">
     <h2 id="tagline-4">Resume</h2>
+    <a id="test">test</a>
     <div class="container">
-      <div class="col-md-12 resume">
-          <a id="skills-anchor"></a>
-          <div id="skills-dropdown" class="collapse resume-copy">
+        <div class="col-md-12 resume"> 
+          <div id="skills-dropdown" class="collapse resume-copy" data-parent="#accordion">
             <h3>SKILLS</h3>
-              <p><strong>Web Development</strong><br>HTML | CSS | JavaScript/jQuery | PHP | Node.JS | React.JS | MySQL | Mongo.db | WordPress | Git</p>
-              <p><strong>Software</strong><br>Adobe Photoshop | Illustrator | Premier | Microsoft Word | Excel | PowerPoint</p>
-              <p><strong>Communications</strong><br>Copywriting | copyediting | AP style | researching | SEO | SEM | PPC | social media marketing</p>     
-            </div>        
-            <a id="experience-anchor"></a>
-          <div id="experience-dropdown" class="collapse resume-copy">
-              <h3>EXPERIENCE</h3>
+            <p><strong>Web Development</strong><br>HTML | CSS | JavaScript/jQuery | PHP | Node.JS | React.JS | MySQL | Mongo.db | WordPress | Git</p>
+            <p><strong>Software</strong><br>Adobe Photoshop | Illustrator | Premier | Microsoft Word | Excel | PowerPoint</p>
+            <p><strong>Communications</strong><br>Copywriting | copyediting | AP style | researching | SEO | SEM | PPC | social media marketing</p>     
+          </div>        
+          <div id="experience-dropdown" class="collapse resume-copy" data-parent="#accordion">
+            <h3>EXPERIENCE</h3>
             <p><strong>Fullerton College | 2018–present</strong><br>Peter currently works as a WordPress developer in the Office of Campus Communications at Fullerton College.</p>
             <p><strong>UC Riverside | 2017–2018</strong></br>Peter worked as a creative copywriter in the Student Affairs Marketing and Communications office of UC Riverside. There he and his team members crafted webpages, emails, posters, T-shirts and other media to educate the student body.</p>
             <p><strong>University of Redlands | 2016–2016</strong><br>As the Web Content Manager for University of Redlands, Peter designed web pages, wrote web page content, managed assets, shot photos, made videos and managed an online calendar.</p>
@@ -129,28 +128,26 @@
             <p><strong>Valley News | 2006–2009</strong><br> As the only full-time staff writer, Peter wore many hats at this small, independently owned weekly newspaper based in Fallbrook, Calif. He covered everything from crime and courts to music and food. He wrote much of the copy in the paper and made many of the photos.</p>
             <p><strong>Professional Musician | 1997–2006</strong><br>Through his teens and early 20s, Peter made his way as a working musician. He gave guitar and drum lessons during the day and played gigs at night and during the weekends.</p>
           </div>
-          <a id="education-anchor"></a>
-          <div id="education-dropdown" class="collapse resume-copy">
-              <h3>EDUCATION</h3>
-              <p><strong>UC Irvine</strong>: Certificate in Web Development, 2017</li>
-              <p><strong>California State University, Fullerton</strong>: Master's Degree in Communications, 2011</p>
-              <p><strong>California State University, Fullerton</strong>: Bachelor's Degree in History, 2006</p>
-              <p><strong>Mt. San Jacinto College</strong>: Certificate in Multimedia Arts, 2000</p>
-            </ul>
+          <div id="education-dropdown" class="collapse resume-copy" data-parent="#accordion">
+            <h3>EDUCATION</h3>
+            <p><strong>UC Irvine</strong>: Certificate in Web Development, 2017</li>
+            <p><strong>California State University, Fullerton</strong>: Master's Degree in Communications, 2011</p>
+            <p><strong>California State University, Fullerton</strong>: Bachelor's Degree in History, 2006</p>
+            <p><strong>Mt. San Jacinto College</strong>: Certificate in Multimedia Arts, 2000</p>
           </div>
+        </div>
       </div>
-    </div> 
     <div class="container-fluid" id="gallery-div">
-      <div class="row">
-        <div class="col-md-4 gallery" id="gallery-1" data-toggle="collapse" data-target="#skills-dropdown">
-          <a href="#skills-anchor"><h3 class="gallery-label">SKILLS <i class="fa fa-angle-down" aria-hidden="true"></i></h3></a>
-        </div>
-        <div class="col-md-4 gallery" id="gallery-2" data-toggle="collapse" data-target="#experience-dropdown">
-          <a href="#experience-anchor"><h3 class="gallery-label">EXPERIENCE <i class="fa fa-angle-down" aria-hidden="true"></i></h3></a>
-        </div>
-        <div class="col-md-4 gallery" id="gallery-3" data-toggle="collapse" data-target="#education-dropdown">
-            <a href="#education-anchor"><h3 class="gallery-label">EDUCATION <i class="fa fa-angle-down" aria-hidden="true"></i></h3></a>
-        </div>
+      <div class="row">             
+        <a href="#test" class="col-md-4 gallery" id="gallery-1" data-toggle="collapse" data-target="#skills-dropdown" aria-expanded="false" aria-controls="skills-dropdown">
+          <h3 class="gallery-label">SKILLS <i class="fa fa-angle-down" aria-hidden="true"></i></h3>
+        </a>
+        <a href="#test" class="col-md-4 gallery" id="gallery-2" data-toggle="collapse" data-target="#experience-dropdown" aria-expanded="false" aria-controls="experience-dropdown">
+          <h3 class="gallery-label">EXPERIENCE <i class="fa fa-angle-down" aria-hidden="true"></i></h3>
+        </a>
+        <a href="#test" class="col-md-4 gallery" id="gallery-3" data-toggle="collapse" data-target="#education-dropdown" aria-expanded="false" aria-controls="education-dropdown">
+            <h3 class="gallery-label">EDUCATION <i class="fa fa-angle-down" aria-hidden="true"></i></h3>
+        </a>
       </div>      
     </div>
   </section>
